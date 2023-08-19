@@ -10,7 +10,7 @@ This repository contains a list of Nextflow pipelines.
 
 # Development
 
-To develop a new pipeline, please refer to the [Pipeline standards[pipeline-standards] guide.
+To develop a new pipeline, please refer to the [Pipeline standards][pipeline-standards] guide.
 
 # License
 
