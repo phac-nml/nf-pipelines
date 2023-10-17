@@ -6,8 +6,8 @@ This repository contains a list of Nextflow pipelines.
 
 | Name    | Repository                 | Description      |
 |---------|----------------------------|------------------|
-| IRIDA Next Integration Pipeline | [https://github.com/example](https://github.com/phac-nml/iridanext-example-nf) | A pipeline to help integrate Nextflow with IRIDA Next. |
-| Mikrokondo | https://github.com/phac-nml/mikrokondo | A simple pipeline for bacterial assembly and quality control. |
+| IRIDA Next Integration Pipeline | <https://github.com/phac-nml/iridanext-example-nf> | A pipeline to help integrate Nextflow with IRIDA Next. |
+| Mikrokondo | <https://github.com/phac-nml/mikrokondo> | A simple pipeline for bacterial assembly and quality control. |
 
 # Development
 
