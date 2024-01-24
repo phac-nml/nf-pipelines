@@ -8,6 +8,8 @@ This repository contains a list of Nextflow pipelines.
 |---------|----------------------------|------------------|
 | IRIDA Next Integration Pipeline | <https://github.com/phac-nml/iridanext-example-nf> | A pipeline to help integrate Nextflow with IRIDA Next. |
 | Mikrokondo | <https://github.com/phac-nml/mikrokondo> | A simple pipeline for bacterial assembly and quality control. |
+| SNVPhyl | <https://github.com/phac-nml/snvphylnfc> | A pipeline for whole-genome phylogenetic analysis |
+| fetchdatairidanext | <https://github.com/phac-nml/fetchdatairidanext> | A pipeline for downloading reads from NCBI. |
 
 # Development
 
