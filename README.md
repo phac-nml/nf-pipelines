@@ -13,8 +13,8 @@ This repository contains a list of Nextflow pipelines.
 | speciesabundance | <https://github.com/phac-nml/speciesabundance> | Estimate the relative abundance of sequence reads originating from different species in a sample. | `nextflow run phac-nml/speciesabundance -profile test,docker --outdir results` |
 | gasclustering | <https://github.com/phac-nml/gasclustering> | Clusters provided MLST profiles for samples (in JSON format) and provides cluster addresses and a visualization of the dendrogram + metadata. | `nextflow run phac-nml/gasclustering -profile test,docker --outdir results` |
 | gasnomenclature | <https://github.com/phac-nml/gasnomenclature> | Assigns new MLST-derived cluster addresses to samples within the context of previously defined cluster addresses. | `nextflow run phac-nml/gasnomenclature -profile test,docker --outdir results` |
+| staramrnf | <https://github.com/phac-nml/staramrnf> | Identifies AMR from passed assembled genomes using the StarAMR software. | `nextflow run phac-nml/staramrnf -profile test,docker --outdir results` |
 | clustersplitter (in-development) | <https://github.com/phac-nml/clustersplitter/tree/dev> | Groups samples by provided metadata values and provides summary statistics of allelic distances and metadata values. | `nextflow run phac-nml/clustersplitter -r dev -profile test,docker --outdir results` |
-| staramrnf (in-development) | <https://github.com/phac-nml/staramrnf/tree/dev> | Identifies AMR from passed assembled genomes using the StarAMR software. | `nextflow run phac-nml/staramrnf -r dev -profile test,docker --outdir results` |
 
 # Development
 
