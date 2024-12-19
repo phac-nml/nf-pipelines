@@ -15,6 +15,7 @@ This repository contains a list of Nextflow pipelines.
 | gasnomenclature | <https://github.com/phac-nml/gasnomenclature> | Assigns new wg/cgMLST-derived cluster addresses to samples within the context of previously defined cluster addresses. | `nextflow run phac-nml/gasnomenclature -profile test,docker --outdir results` |
 | staramrnf | <https://github.com/phac-nml/staramrnf> | Identifies AMR from passed assembled genomes using the StarAMR software. | `nextflow run phac-nml/staramrnf -profile test,docker --outdir results` |
 | arboratornf | <https://github.com/phac-nml/arboratornf> | Groups samples by provided metadata values and provides summary statistics of wg/cgMLST allelic distances and metadata values. | `nextflow run phac-nml/arboratornf -profile test,docker --outdir results` |
+| fastmatchirida | <https://github.com/phac-nml/fastmatchirida> | Reports wgMLST distances between selected query samples and a selected set of reference samples. | `nextflow run phac-nml/fastmatchirida -profile test,docker --outdir results` |
 
 # Development
 
