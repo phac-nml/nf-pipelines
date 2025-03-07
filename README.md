@@ -16,6 +16,7 @@ This repository contains a list of Nextflow pipelines.
 | staramrnf | <https://github.com/phac-nml/staramrnf> | Identifies AMR from passed assembled genomes using the StarAMR software. | `nextflow run phac-nml/staramrnf -profile test,docker --outdir results` |
 | arboratornf | <https://github.com/phac-nml/arboratornf> | Groups samples by provided metadata values and provides summary statistics of wg/cgMLST allelic distances and metadata values. | `nextflow run phac-nml/arboratornf -profile test,docker --outdir results` |
 | fastmatchirida | <https://github.com/phac-nml/fastmatchirida> | Reports wgMLST distances between selected query samples and a selected set of reference samples. | `nextflow run phac-nml/fastmatchirida -profile test,docker --outdir results` |
+| metadatatransformation | <https://github.com/phac-nml/metadatatransformation> | Transforms metadata in various ways for use in IRIDA Next. | `nextflow run phac-nml/metadatatransformation -r main -profile test,docker --outdir results` |
 
 # Development
 
