@@ -7,6 +7,7 @@ This repository contains a list of Nextflow pipelines.
 | Name    | Repository                 | Description      | Run in Nextflow with provided test data |
 |---------|----------------------------|------------------|---|
 | iridanextexample | <https://github.com/phac-nml/iridanextexample> | A pipeline to help integrate Nextflow with IRIDA Next. | `nextflow run phac-nml/iridanextexample -profile test,docker --outdir results` |
+| iridanextexample2 | <https://github.com/phac-nml/iridanextexample2> | An example pipeline for running on IRIDA-Next with nf-schema. | `nextflow run phac-nml/iridanextexample2 -profile test,docker --outdir results` |
 | Mikrokondo | <https://github.com/phac-nml/mikrokondo> | A simple pipeline for bacterial assembly and quality control. | `nextflow run phac-nml/mikrokondo -profile test,docker --outdir results` |
 | SNVPhyl | <https://github.com/phac-nml/snvphylnfc> | A pipeline for whole-genome phylogenetic analysis | `nextflow run phac-nml/snvphylnfc -profile test,docker --outdir results` |
 | fetchdatairidanext | <https://github.com/phac-nml/fetchdatairidanext> | A pipeline for downloading reads from NCBI. | `nextflow run phac-nml/fetchdatairidanext -profile test,docker --outdir results` |
@@ -16,7 +17,10 @@ This repository contains a list of Nextflow pipelines.
 | staramrnf | <https://github.com/phac-nml/staramrnf> | Identifies AMR from passed assembled genomes using the StarAMR software. | `nextflow run phac-nml/staramrnf -profile test,docker --outdir results` |
 | arboratornf | <https://github.com/phac-nml/arboratornf> | Groups samples by provided metadata values and provides summary statistics of wg/cgMLST allelic distances and metadata values. | `nextflow run phac-nml/arboratornf -profile test,docker --outdir results` |
 | fastmatchirida | <https://github.com/phac-nml/fastmatchirida> | Reports wgMLST distances between selected query samples and a selected set of reference samples. | `nextflow run phac-nml/fastmatchirida -profile test,docker --outdir results` |
-| metadatatransformation | <https://github.com/phac-nml/metadatatransformation> | Transforms metadata in various ways for use in IRIDA Next. | `nextflow run phac-nml/metadatatransformation -r main -profile test,docker --outdir results` |
+| metadatatransformation | <https://github.com/phac-nml/metadatatransformation> | Transforms metadata in various ways for use in IRIDA Next. | `nextflow run phac-nml/metadatatransformation -profile test,docker --outdir results` |
+| measeq | <https://github.com/phac-nml/measeq> | Measles Sequence Analysis and Automation. | `nextflow run phac-nml/measeq -profile test,docker --outdir results` |
+| typingQC | <https://github.com/phac-nml/typingQC> | Genotyping Quality Control (typingQC). | `nextflow run phac-nml/typingQC -profile test,docker --outdir results` |
+| submitdatairidanext | <https://github.com/phac-nml/submitdatairidanext> | Pipeline for submitting data to INSDC databases for IRIDA Next. | `nextflow run phac-nml/submitdatairidanext -profile test,docker --outdir results` |
 
 # Development
 
