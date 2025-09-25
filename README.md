@@ -21,6 +21,7 @@ This repository contains a list of Nextflow pipelines.
 | measeq | <https://github.com/phac-nml/measeq> | Measles Sequence Analysis and Automation. | `nextflow run phac-nml/measeq -profile test,docker --outdir results` |
 | typingQC | <https://github.com/phac-nml/typingQC> | Genotyping Quality Control (typingQC). | `nextflow run phac-nml/typingQC -profile test,docker --outdir results` |
 | submitdatairidanext | <https://github.com/phac-nml/submitdatairidanext> | Pipeline for submitting data to INSDC databases for IRIDA Next. | `nextflow run phac-nml/submitdatairidanext -profile test,docker --outdir results` |
+| cditoxins | <https://github.com/phac-nml/cditoxins> | Searches for toxin genes in *Clostridioides difficile* genome assemblies| `nextflow run phac-nml/cditoxins -profile test,docker --outdir results` |
 
 # Development
 
